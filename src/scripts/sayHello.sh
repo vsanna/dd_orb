@@ -1,0 +1,1 @@
+echo Yay! Say hello from: $MSG

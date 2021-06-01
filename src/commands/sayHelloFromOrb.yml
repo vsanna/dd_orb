@@ -1,0 +1,15 @@
+description: >
+  say hello from orbs
+# What will this command do?
+# Descriptions should be short, simple, and clear.
+parameters:
+  msg:
+    type: string
+    default: "orb!!"
+    description: "overrided!!"
+steps:
+  - run:
+      environment:
+        MSG: <<parameters.msg>>
+      name: Hello from orbs
+      command: <<include(scripts/sayHello.sh)>>
