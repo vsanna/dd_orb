@@ -1,1 +1,1 @@
-echo Yay! Say hello from: $MSG
+echo "Yay! Say hello from: $MSG"
